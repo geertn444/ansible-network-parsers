@@ -90,4 +90,4 @@ vars:
 keys:
   vlans:
     value: "{{ vlan }}"
-    items: "^(?P<id>\\d+)\\s+(?P<name>\\S+)\\s+(?P<status>[a-z]{4,})\\s*(?P<ports>([A-Za-z]+).+)?"
+    items: "^(?P<id>\\d+)\\s+(?P<name>.+?)\\s+(?P<status>[a-z]{4,})\\s*(?P<ports>([A-Za-z]+).+)?"
